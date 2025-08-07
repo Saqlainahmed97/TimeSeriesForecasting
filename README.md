@@ -13,14 +13,6 @@ This repository contains advanced time series forecasting model (ARMA) for energ
 1. ARMA (AutoRegressive Moving Average):
 The ARMA model is a classic time series forecasting approach that captures the autoregressive and moving average components of the energy consumption data. It considers the historical values and lagged errors to make accurate predictions.
 
-### Working on....
-
-2. LSTM (Long Short-Term Memory):
-The LSTM model is a deep learning technique that can effectively capture long-term dependencies in sequential data. It utilizes recurrent neural networks with memory cells to learn and predict energy consumption patterns, considering both short and long-term dependencies.
-
-3. SARIMA (Seasonal AutoRegressive Integrated Moving Average):
-The SARIMA model is a powerful time series forecasting method that takes into account seasonal patterns in the data. It combines the autoregressive, moving average, and seasonal components to accurately predict energy consumption based on historical patterns and trends.
-
 ### Requirements
 
 The implementation is based on Python 3.7 or later. The following libraries are required:
@@ -32,6 +24,3 @@ The implementation is based on Python 3.7 or later. The following libraries are 
 - Matplotlib
 - Seaborn (optional, for visualization)
 
-### Usage
-
-Make sure to have the necessary data available in the specified format or adapt the code to your specific dataset.
